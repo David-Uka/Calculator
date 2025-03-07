@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryVariant</item>
+        <item name="colorAccent">@color/secondary</item>
+    </style>
+    <style name="MainTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- If you are using revision 22.1 or later, you can instead use the AppCompat DayNight theme -->
+        <!-- <item name="android:windowBackground">@drawable/splash</item> -->
+    </style>
+</resources>

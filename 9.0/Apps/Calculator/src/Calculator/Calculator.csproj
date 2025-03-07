@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0-android;net6.0-ios;net6.0-maccatalyst;net6.0-windows10.0.19041.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="6.0.100" />
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="6.0.100" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Platforms\**\*.cs" />
+    <None Update="Platforms\**\*.plist" />
+    <None Update="Platforms\**\*.xml" />
+    <None Update="Platforms\**\*.appxmanifest" />
+  </ItemGroup>
+
+</Project>
